@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="box">
+        <section class="box_insert">
+            <h4>Insira números de 1 à 100</h4>
+            <div class="box_insert_adition">
+                <input type="number" value='' class="num">
+                <button id="bt_ad">Adicionar</button>
+            </div>
+            <div>
+                <button id="bt_vr">Verificar</button>
+                <button id="bt_cleanlist"> Limpar lista </button>
+            </div>
+        </section>
+        <div class="title">Resultado</div>
+        <section class="box_result">
+            <select  id="list" size="10"></select>
+            <div class="box_result_result" ></div>
+        </section>
+    </section>
+    <footer>
+        Site criado com a função de testar conhecimentos em HTML, CSS e JavaScrypt. É um analisador de lista de números.<br>
+        &copy; VictorFreitas
+    </footer>
+    <script src="adicionar.js"></script>
+</body>
+</html>
